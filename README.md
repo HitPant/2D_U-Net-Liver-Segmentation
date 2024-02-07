@@ -1,8 +1,8 @@
 # Liver Segmentation - 2D U-Net
 
-![alt-text](img\seg.png)
+![alt-text](https://github.com/HitPant/2D_U-Net-Liver-Segmentation/blob/main/img/seg.png)
 
-![Image description](img\unet.png)
+![alt-text](https://github.com/HitPant/2D_U-Net-Liver-Segmentation/blob/main/img/unet.png)
 
 
 ### Steps performed:
@@ -15,15 +15,15 @@
    Creating groups of slices(each layer of the volumetric image data)
    Perfomed transformations: Scale intensity, Crop Foreground, orientation, etc.
 
-   ![Image description](img\trans.png)
+  ![alt-text](https://github.com/HitPant/2D_U-Net-Liver-Segmentation/blob/main/img/trans.png)
 
 3. Train U-Net model:
    A U-Net model is traine with Pytorch framework.
 
-   ![Image description](E:\Hitesh\Univ\img\model.png)
+   ![alt-text](https://github.com/HitPant/2D_U-Net-Liver-Segmentation/blob/main/img/model.png)
 
    Dice loss is calculated
    Dice Loss = 1 - 2 * (Sum of (Predicted * Ground Truth)) / (Sum of Predicted + Sum of Ground Truth)
    
-   ![Image description](img\dice_loss.png)
+   ![Image description](https://github.com/HitPant/2D_U-Net-Liver-Segmentation/blob/main/img/dice_loss.png)
 
