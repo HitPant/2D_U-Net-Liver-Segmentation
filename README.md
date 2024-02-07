@@ -1,6 +1,6 @@
 # Liver Segmentation - 2D U-Net
 
-!![alt-text](img\seg.png)
+![alt-text](img\seg.png)
 
 ![Image description](img\unet.png)
 
